@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="4dp"
+    android:padding="4dp"
+    android:layout_height="75dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/operatortextviewid"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:text="Operator"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/operatortextviewid"
+            android:id="@+id/prefixtextviewid"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:text="Prefix"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:layout_toRightOf="@+id/prefixtextviewid"
+            android:id="@+id/rateedittextid"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:text="Rate"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <EditText
+            android:layout_toRightOf="@+id/rateedittextid"
+            android:id="@+id/commedittextview"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:text="Comm"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <EditText
+            android:layout_toRightOf="@+id/commedittextview"
+            android:id="@+id/chargeedittextview"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:text="Charge"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:layout_toRightOf="@+id/chargeedittextview"
+            android:id="@+id/checkboxviewid"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
